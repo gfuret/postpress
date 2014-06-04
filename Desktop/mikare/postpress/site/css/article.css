@@ -1,0 +1,147 @@
+
+.article{
+	padding: 2% 0;
+	margin: 30px auto 0 auto;
+	border-bottom: 1px solid #acacac ;
+	/*height: 340px;*/
+	overflow: visible;
+}
+
+.article h2,
+.article h3,
+.article p,
+.article button{
+	margin: 0; 
+	padding: 0;
+}
+.article h2, .form h2{
+	color: #ed1c24;
+	font-size: 24px;
+	margin-bottom: 10px;
+}
+.article h3{
+	color: #6e6e70;
+	font-size: 16px;
+}
+.article p{
+	color: #a9a9a9;
+	font-size: 14px;
+}
+.article button{
+	float: right;
+	font-size: 18px;
+	padding: 0 15px;
+	background-color: #ed1c24;
+	color: #fff;
+	border-style:solid;
+	border-color: #f48769 #c1151b #d51820 #f15c42;
+	box-shadow: 2px 2px 7px 2px #cacbcd;
+}
+.article button:hover{
+	background-color: #f15c42;
+}
+.article img{
+	display: block;
+	float: none;
+	margin: 0 25px 5px 10px;
+	box-shadow: 2px 2px 7px 2px #cacbcd;
+}
+
+/*		FORM BEGIN		*/
+::-webkit-input-placeholder {
+	font-size: 12px;
+	padding-left: 10px;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+	font-size: 12px;
+	padding-left: 10px;
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+	font-size: 12px;
+	padding-left: 10px;
+}
+
+:-ms-input-placeholder {  
+	font-size: 12px;
+	padding-left: 10px;
+}
+
+
+label{
+	color: #959595;
+	font-size: 12px;
+	width: 175px;
+	display: inline-block;
+	margin: 0;
+	padding: p;
+	-ms-word-break: break-all;
+	word-break: break-all;
+
+	// Non standard for webkit
+	word-break: break-word;
+
+	-webkit-hyphens: auto;
+	-moz-hyphens: auto;
+	hyphens: auto;
+}
+.form{
+	display: block;
+}
+
+.form p{
+	color: #959595;
+	font-size: 12px;
+}
+input[type='text']
+{
+	line-height: 30px;
+	height: 30px;
+	width: 100%;
+	background-color: #fafafa;
+	border: none;
+}
+.form div{
+	margin-bottom: 10px;
+}
+.form input[type='submit']
+{
+
+	font-size: 18px;
+	padding: 0 15px;
+	background-color: #ed1c24;
+	color: #fff;
+	border-style:solid;
+	border-color: #f48769 #c1151b #d51820 #f15c42;
+	box-shadow: 2px 2px 7px 2px #cacbcd;
+}
+#file{
+	width: 100%;  margin-bottom: 2%;
+}
+#url{
+	width: 100%;  
+}
+
+
+.author{
+	padding: 5% 0;
+	margin: 0 auto; 
+	float: none;
+	width: 100%;
+	display: inline-block;
+}
+.author img{
+	float: none;
+	margin: 0 auto;
+	padding: 0;	
+	display: block;
+}
+.author p{
+	clear: both;
+	float: none;
+	font-size: 12px;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
