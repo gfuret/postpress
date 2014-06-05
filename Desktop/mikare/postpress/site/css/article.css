@@ -1,10 +1,10 @@
 
 .article{
-	padding: 5px 0;
-	margin: 30px 0 0 0;
+	padding: 2% 0;
+	margin: 30px auto 0 auto;
 	border-bottom: 1px solid #acacac ;
-	height: 340px;
-	overflow: auto;
+	/*height: 340px;*/
+	overflow: visible;
 }
 
 .article h2,
@@ -41,7 +41,8 @@
 	background-color: #f15c42;
 }
 .article img{
-	float: right;
+	display: block;
+	float: none;
 	margin: 0 25px 5px 10px;
 	box-shadow: 2px 2px 7px 2px #cacbcd;
 }
@@ -85,6 +86,10 @@ label{
 	-moz-hyphens: auto;
 	hyphens: auto;
 }
+.form{
+	display: block;
+}
+
 .form p{
 	color: #959595;
 	font-size: 12px;
@@ -93,7 +98,7 @@ input[type='text']
 {
 	line-height: 30px;
 	height: 30px;
-	width: 440px;
+	width: 100%;
 	background-color: #fafafa;
 	border: none;
 }
@@ -111,22 +116,32 @@ input[type='text']
 	border-color: #f48769 #c1151b #d51820 #f15c42;
 	box-shadow: 2px 2px 7px 2px #cacbcd;
 }
-
 #file{
-	width: 145px; margin-right:5px; 
+	width: 100%;  margin-bottom: 2%;
 }
 #url{
-	margin: 0;
-	padding: 0;
-	width: 286px;
+	width: 100%;  
 }
 
+
 .author{
-	padding: 100px 25px 0 0; 
-	float: right;
+	padding: 5% 0;
+	margin: 0 auto; 
+	float: none;
+	width: 100%;
+	display: inline-block;
+}
+.author img{
+	float: none;
+	margin: 0 auto;
+	padding: 0;	
+	display: block;
 }
 .author p{
+	clear: both;
+	float: none;
 	font-size: 12px;
 	margin: 0;
 	padding: 0;
+	text-align: center;
 }

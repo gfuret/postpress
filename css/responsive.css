@@ -1,236 +1,41 @@
-/* Phones to Tablets ----------------------------------------------------------------------------------------------------*/
-
-@media only screen and (min-width: 480px) {
-/*			Testing media query
-			body{
-				background-color: royalblue;
-			}*/
+@media screen and (min-width: 480px) {
 
 
 
-/**********************
-*	HOME Phones to Tablets
-**********************/
+	/**********************
+	*	TWO COLUMN LAYOUT
+	**********************/
+
+
+/*	#primary{
+		width: 50%;
+		float: left;
+
+	}
+	#secondary{
+		width: 40%;
+		float: right;
+	}
+
+*/
+
+	/**********************
+	*	PAGE PORTFOLIO
+	**********************/
 
 
 
-			#gallery li{
-				width: 43%;
-				margin: 5% 4% 0 0;
-			}
-
-}
-
-/* Tablets to Desktop 769----------------------------------------------------------------------------------------------------*/
-
-@media only screen and (min-width: 1111px) {	
-
-/*			testing media query
-			body{
-				background-color: tomato;
-			}*/
+/*	#gallery li{
+		width: 28.3333%;
+	}
+	#gallery li:nth-child(4n) {
+		clear: left;
+	}
+*/
 
 
+@media screen and (min-width: 660px) {
 
-/**********************
-*	HEADER Tablets to Desktop
-**********************/
-
-
-
-			.upper-wrapper{
-				height: 70px;
-				max-width: 1148px;
-				margin: 0 auto;
-				padding: 0;
-			}
-			#logo{
-				display: inline-block;
-				margin: 17px 10px 0 0;
-				padding: 0 0 0 15px;
-				box-sizing:border-box;
-				-moz-box-sizing:border-box; /* Firefox */
-				width: 204px;
-				float: left;
-			}
-			.top-address{
-				width: 345px;
-				display: inline-block;/**/
-				font-size: 10px;
-				margin: 22px 0;
-				padding: 0;
-				letter-spacing: normal;
-				color: #808080;
-				float: left;
-				text-align: justify;
-			}
-
-
-/**********************
-*	NAV Tablets to Desktop
-**********************/
-
-
-nav{
-	float: right;
-	display: inline;
-	margin: 25px 0;
-	padding: 0;
-	text-align: center;
-	max-width: 500px;
-}
-nav ul {
-	margin: 0;
-	padding: 0;
-	list-style: none;
-}
-nav li{
-	display: inline;
-	padding: 0;
-	margin: 0 10px;
-}
-nav li:last-child{
-	margin-right: 15px;
-}
-nav li:first-child{
-	margin-left: 35px;
-}
-
-
-
-
-
-/**********************
-*	SLIDER Tablets to Desktop
-**********************/
-
-
-
-			.slider{
-				background-color: #f5f5f6;
-				width: 100%;
-			}
-			.slider img{
-				margin: 0 auto;
-				padding: 0;
-				display: block;
-				
-				background-color: #f5f5f6;
-			}
-
-
-
-/**********************
-*	HOME Tablets to Desktop
-**********************/
-
-
-
-#gallery li{
-	width: 32%;
-	margin: 5% 2% 0 0;
-}
-#gallery li:nth-child(3n){
-	margin-right: 0;
-}
-
-
-
-
-
-
-/**********************
-*	ARTICLE Tablets to Desktop
-**********************/
-
-.article{
-	padding: 5px 0;
-	margin: 30px 0 0 0;
-	border-bottom: 1px solid #acacac ;
-	height: 340px;
-	overflow: auto;
-}
-
-.article img{
-	display: inline;
-	float: right;
-	margin: 0 25px 5px 10px;
-	box-shadow: 2px 2px 7px 2px #cacbcd;
-}
-
-label{
-	color: #959595;
-	font-size: 12px;
-	width: 175px;
-	display: inline-block;
-	margin: 0;
-	padding: p;
-	-ms-word-break: break-all;
-	word-break: break-all;
-	word-break: break-word;
-	-webkit-hyphens: auto;
-	-moz-hyphens: auto;
-	hyphens: auto;
-}
-.form{
-	display: inline-block;
-}
-.form p{
-	color: #959595;
-	font-size: 12px;
-}
-input[type='text']
-{
-	line-height: 30px;
-	height: 30px;
-	width: 440px;
-	background-color: #fafafa;
-	border: none;
-}
-.form div{
-	margin-bottom: 10px;
-}
-#file{
-	width: 145px; 
-	margin-right:5px; 
-}
-#url{
-	margin: 0;
-	padding: 0;
-	width: 286px;
-}
-
-/*********AUTHOR**************/
-
-
-
-.author{
-	padding: 100px 25px 0 0; 
-	float: right;
-	display: inline-block;
-	width: 300px;
-	margin: 0; 
-}
-.author img{
-	float: right;
-	margin: 0 0 5px 0;
-	padding: 0;	
-	display: block;
-}
-.author p{
-	float: right;
-	display: block;
-	font-size: 12px;
-	margin: 0;
-	padding: 0;
-	text-align: justify;
-}
-
-
-div.slider-wrapper { max-width: 1148px !important; }
-
-
-/*end of the media query*/
-}
-
-
+	/**********************
+	*	HEADER
+	**********************/

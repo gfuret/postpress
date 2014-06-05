@@ -24,13 +24,9 @@ h3{
 	margin: 0 0 1em 0;
 }
 .root{
-	display: block;
 	text-decoration: none;
 	color: #bcbcbc;
 	font-size: 12px;
-}
-.root:hover{
-	color: #ed1c24;
 }
 
 
@@ -157,30 +153,30 @@ nav li:first-child{
 #gallery li:nth-child(3n){
 	margin-right: 0;
 }
-#gallery li div {
+#gallery li a div {
 	margin: 0;
 	padding: 15px;
 	color: #bdc3c7;
 }
-#gallery li div h2,
-#gallery li div h3,
-#gallery li div p,
-#gallery li div button{
+#gallery li a div h2,
+#gallery li a div h3,
+#gallery li a div p,
+#gallery li a div button{
 	margin: 0; padding: 0;
 }
-#gallery li div h2{
+#gallery li a div h2{
 	color: #ed1c24;
 	font-size: 18px;
 }
-#gallery li div h3{
+#gallery li a div h3{
 	color: #6e6e70;
 	font-size: 10px;
 }
-#gallery li div p{
+#gallery li a div p{
 	color: #bebdc0;
 	font-size: 9px;
 }
-#gallery li div button{
+#gallery li a div button{
 	float: right;
 	font-size: 18px;
 	padding: 0 15px;
@@ -190,7 +186,7 @@ nav li:first-child{
 	border-color: #f48769 #c1151b #d51820 #f15c42;
 	box-shadow: 2px 2px 7px 2px #cacbcd;
 }
-#gallery li div button:hover{
+#gallery li a div button:hover{
 	background-color: #f15c42;
 }
 
@@ -240,8 +236,4 @@ nav li a:hover{
 }
 .lang a{
 	color: #808080;
-}
-.lang a:hover{
-	color: #999;
-	font-weight: bold;
 }
